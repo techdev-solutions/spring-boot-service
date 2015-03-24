@@ -18,4 +18,4 @@ if [ -e "$PID_FILE" ]; then
 fi
 
 echo "starting application.."
-nohup /usr/bin/java -jar ../build/libs/spring-boot-service-0.0.1-SNAPSHOT.jar > application.log &
+nohup /usr/bin/java -jar ../build/libs/spring-boot-service-0.0.1-SNAPSHOT.jar > application.out &
